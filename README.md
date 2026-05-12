@@ -23,10 +23,9 @@ Customer churn directly impacts revenue growth, customer acquisition costs, and 
 ## 🏦: Data
 Source: [Kaggle](https://www.kaggle.com/competitions/playground-series-s6e3/data?select=train.csv) – Predict Customer Churn
 
-Dataset Features
+### Dataset Features
 
 The dataset includes a mix of:
-
 - Customer demographics
 - Subscription information
 - Billing information
@@ -47,6 +46,7 @@ Yes = 1
 No = 0
 
 ## Project Workflow
+![](https://github.com/kurves/Customer-Churn-Prediction-Engine/blob/main/Untitledpresentation.png)
 
 ## 🛠️ Tools & Technologies
 
@@ -69,33 +69,21 @@ Key analyses performed include:
 - Churn by internet service
 - Monthly charges vs churn
 - Tenure distribution by churn
-- Temporal churn patterns
 
 ## Machine Learning Models
-
 The following models were developed and compared:
-
 1. Logistic Regression
-
 Baseline interpretable classification model.
-
 2. Random Forest
-
 Ensemble tree-based classifier for non-linear relationships.
-
 3. XGBoost
-
 Gradient boosting model optimized for predictive performance.
-
 4. LightGBM
-
 Efficient gradient boosting framework for scalable training.
 
 
 ## Data Preprocessing Pipeline
-
 A production-style preprocessing pipeline was implemented using Scikit-learn.
-
 ### Numerical Features
 - Standard scaling
 ### Categorical Features
@@ -109,7 +97,6 @@ A production-style preprocessing pipeline was implemented using Scikit-learn.
 
 
 ## Model Evaluation
-
 Models were evaluated using:
 -Accuracy
 - Precision
@@ -118,7 +105,6 @@ Models were evaluated using:
 - ROC-AUC
 
 ## Explainable AI with SHAP
-
 SHAP (SHapley Additive exPlanations) was used to interpret model predictions and identify the primary drivers of customer churn.
 ### Explainability Visualizations
 - SHAP Feature Importance Plot
@@ -128,19 +114,12 @@ SHAP (SHapley Additive exPlanations) was used to interpret model predictions and
 
 ## 📓 Key Insights
 1. Customer Tenure is the Strongest Churn Driver
-
 Customers with shorter tenure exhibit significantly higher churn probability.
-
 2. Month-to-Month Contracts Increase Churn Risk
-
 Flexible contract structures are strongly associated with customer attrition.
-
 3. High Monthly Charges Correlate with Churn
-
 Customers with higher recurring charges demonstrate elevated churn behavior.
-
 4. Payment Behavior Matters
-
 Electronic payment users showed higher churn likelihood compared to auto-payment customers.
 
 
