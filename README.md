@@ -2,6 +2,7 @@
 
 ## An end-to-end machine learning project focused on predicting customer churn and identifying the key behavioral, contractual, and financial drivers behind customer attrition using Explainable AI (SHAP).
 
+![](https://github.com/kurves/Customer-Churn-Prediction-Engine/blob/main/banner.PNG)
 ## 📌 Business Problem
 Customer churn directly impacts revenue growth, customer acquisition costs, and long-term profitability. Businesses that can proactively identify high-risk customers are better positioned to improve retention, optimize customer experience, and reduce revenue leakage. This project builds a complete churn prediction pipeline using multiple machine learning models and explainable AI techniques to:
 
@@ -103,6 +104,7 @@ Models were evaluated using:
 - Recall
 - F1 Score
 - ROC-AUC
+![](https://github.com/kurves/Customer-Churn-Prediction-Engine/blob/main/results.PNG)
 
 ## Explainable AI with SHAP
 SHAP (SHapley Additive exPlanations) was used to interpret model predictions and identify the primary drivers of customer churn.
@@ -111,7 +113,7 @@ SHAP (SHapley Additive exPlanations) was used to interpret model predictions and
 - SHAP Beeswarm Plot
 - SHAP Dependence Plot
 - SHAP Waterfall Plot
-
+![](https://github.com/kurves/Customer-Churn-Prediction-Engine/blob/main/waterfall.PNG)
 ## 📓 Key Insights
 1. Customer Tenure is the Strongest Churn Driver
 Customers with shorter tenure exhibit significantly higher churn probability.
